@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 const EMAIL_USER = 'YOUR EMAIL';
 const EMAIL_PASS = 'YOUR EMAIL PASS';
-const RECEIVER_EMAIL = 'eyecarecentre12@gmail.com'; // Hospital's email address
+const RECEIVER_EMAIL = 'RECIEVERS EMAIL'; // Hospital's email address
 
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
