@@ -10,8 +10,8 @@ const PORT = 4000;
 app.use(cors());
 app.use(bodyParser.json());
 
-const EMAIL_USER = 'eyecarecentre12@gmail.com';
-const EMAIL_PASS = 'oqvzokinbtvlkrqw';
+const EMAIL_USER = 'YOUR EMAIL';
+const EMAIL_PASS = 'YOUR EMAIL PASS';
 const RECEIVER_EMAIL = 'eyecarecentre12@gmail.com'; // Hospital's email address
 
 const transporter = nodemailer.createTransport({
